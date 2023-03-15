@@ -41,7 +41,7 @@ while True:
         add_course(cursos)
     elif action == "SEARCH":
         search(cursos)
-     elif action == "MODIFY":
+     elif action == "UPDATE":
         modify(cursos)
     else:
         print(f"Opcion invalida: {action}")
